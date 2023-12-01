@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import "./Pages.css"
+import "./static/Pages.css"
 
 const CV = () => {
     useEffect(() => {
