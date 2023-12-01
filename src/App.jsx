@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 function App() {
   return (
     <>
-      <Router basename="/HRWebsite">
+      <Router>
         <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
