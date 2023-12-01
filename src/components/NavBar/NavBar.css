@@ -12,7 +12,6 @@
 .navbutton {
     font-family: 'Libre Baskerville', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
-    color: black;
     margin: 0 10px; /* Adjust margin between buttons */
     padding: 10px 20px; /* Adjust padding for buttons */
     border: none;
@@ -36,4 +35,5 @@
 .navbutton:disabled {
     opacity: 1;
     cursor: default;
+    color: gray;
     }
