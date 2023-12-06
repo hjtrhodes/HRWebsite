@@ -1,5 +1,5 @@
 import HRPic from "../../assets/HR.png"
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
 
 const TailwindNavBar = () => {
@@ -34,7 +34,6 @@ const TailwindNavBar = () => {
                   }}
                   style={{ 
                     cursor: isContactsPage ? 'default' : 'pointer',
-                    fontSize: isContactsPage ? '1.0rem' : undefined,
                     color: isContactsPage ? '#000080' : undefined,
                     pointerEvents: isContactsPage ? 'none' : 'auto',}}
                     >
@@ -56,7 +55,6 @@ const TailwindNavBar = () => {
                   }}
                   style={{ 
                     cursor: isHomePage ? 'default' : 'pointer',
-                    fontSize: isHomePage ? '1.1rem' : undefined,
                     color: isHomePage ? '#000080' : undefined,
                     pointerEvents: isHomePage ? 'none' : 'auto',}}
                     >
@@ -74,7 +72,6 @@ const TailwindNavBar = () => {
                   }}
                   style={{ 
                     cursor: isCVPage ? 'default' : 'pointer',
-                    fontSize: isCVPage ? '1.1rem' : undefined,
                     color: isCVPage ? '#000080' : undefined,
                     pointerEvents: isCVPage ? 'none' : 'auto',}}
                     >
@@ -92,7 +89,6 @@ const TailwindNavBar = () => {
                   }}
                   style={{ 
                     cursor: isAboutMePage ? 'default' : 'pointer',
-                    fontSize: isAboutMePage ? '1.1rem' : undefined,
                     color: isAboutMePage ? '#000080' : undefined,
                     pointerEvents: isAboutMePage ? 'none' : 'auto',}}
                     >
@@ -110,7 +106,6 @@ const TailwindNavBar = () => {
                   }}
                   style={{ 
                     cursor: isProjectsPage ? 'default' : 'pointer',
-                    fontSize: isProjectsPage ? '1.1rem' : undefined,
                     color: isProjectsPage ? '#000080' : undefined,
                     pointerEvents: isProjectsPage ? 'none' : 'auto',}}
                     >

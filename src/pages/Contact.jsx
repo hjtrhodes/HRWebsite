@@ -1,9 +1,10 @@
-import React from 'react'
+import ContactForm from "../components/ContactForm/ContactForm.jsx"
 
 const Contact = () => {
+
     return (
-        <div className='pagecontainer'>
-            <h1>Contact</h1>
+    <div className="pagecontainer flex items-center justify-center p-8">
+                <ContactForm />
         </div>
     )
 }
