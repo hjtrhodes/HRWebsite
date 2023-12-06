@@ -1,5 +1,4 @@
 import React, { useState }  from 'react'
-import "./static/Pages.css"
 import HRPic from "../assets/HRPic.png"
 import "./static/Home.css"
 

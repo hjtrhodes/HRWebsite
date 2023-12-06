@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Projects = () => {
+const Contact = () => {
     return (
         <div className='pagecontainer'>
-            <h1>Projects</h1>
+            <h1>Contact</h1>
         </div>
     )
 }
 
-export default Projects
+export default Contact

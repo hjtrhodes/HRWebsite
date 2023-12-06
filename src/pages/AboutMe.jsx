@@ -1,10 +1,9 @@
 import React from 'react'
-import "./static/Pages.css"
 
 const AboutMe = () => {
     return (
         <div className='pagecontainer'>
-            <h1>About Me</h1>
+            <h1 className="text-3xl font-bold underline">About Me</h1>
         </div>
     )
 }
