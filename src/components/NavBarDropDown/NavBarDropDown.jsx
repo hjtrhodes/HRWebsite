@@ -111,6 +111,7 @@ const NavBarDropDown = (props) => {
                           event.preventDefault();
                           if (!isContactsPage) {
                             navigate('/contact');
+                            props.setPageName('Contact Me')
                           }
                         }}
                         style={{ 
