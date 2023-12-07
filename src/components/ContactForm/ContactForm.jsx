@@ -59,7 +59,7 @@ const ContactForm = () => {
                     <div className="flex justify-center">
                         <button
                           type="submit"
-                          className="py-3 px-5 text-sm font-medium text-gray-900 dark:text-white rounded-lg bg-blue-200 hover:bg-blue-300 transform hover:scale-110 focus:ring-4 focus:outline-none focus:ring-primary-300 cursor-pointer"
+                          className="py-3 px-5 text-sm font-medium text-gray-900 dark:text-white rounded-lg bg-yellow-300 hover:bg-yellow-400 transform hover:scale-110 focus:ring-4 focus:outline-none focus:ring-primary-300 cursor-pointer"
                         >
                           Send email
                         </button>
