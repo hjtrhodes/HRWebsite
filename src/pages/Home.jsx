@@ -1,5 +1,4 @@
 import React, { useState }  from 'react'
-import HRPic from "../assets/HRPic.png"
 
 const Home = () => {
     const [isEmailPopupOpen, setEmailPopupOpen] = useState(false);

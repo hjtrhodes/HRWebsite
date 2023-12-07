@@ -10,9 +10,9 @@ const ContactForm = () => {
     return (
         <section className="bg-white dark:bg-gray-900">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact me</h2>
-                <p className="mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Please feel free to contact me on Github, Linkedin or send me an email below:
+                <div className="mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Please feel free to contact me on Github, Linkedin or send me an email below:
                     <SocialMediaButtons />
-                </p>
+                </div>
 
 
 
@@ -39,7 +39,7 @@ const ContactForm = () => {
                             id="subject" 
                             name="subject"
                             className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" 
-                            placeholder="Let me know how we can help you" 
+                            placeholder="Enter subject here..." 
                             required 
                             />
                     </div>

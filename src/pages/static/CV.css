@@ -9,7 +9,10 @@
     height: 85vh; /* Adjust the height as needed */
     border: lightgray solid 1px;
     margin-top: 15px;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+    overflow: hidden;  
 }
+
 
   /* Responsive styles for smaller screens */
     @media (max-width: 768px) {
@@ -17,4 +20,12 @@
       width: 90%; /* Adjust for smaller screens */
       height: 90vh; /* Adjust the height as needed */
     }
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 1600px) {
+  .CurriculumVitae {
+      width: 43%;
+      height: 90vh
+  }
 }
