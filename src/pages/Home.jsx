@@ -14,17 +14,21 @@ const Home = () => {
             <div className="lg:col-span-3">
                 <h1 className="pt-4 pb-4 block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">Hi, I'm Harry . . .</h1>
                 <h1 className="pb-4 block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-4xl dark:text-white">I'm a Software Developer</h1>
-                <p className="mt-3 text-lg text-gray-800 dark:text-gray-400 pb-4"><ul>   <li>🤓 I'm a graduate from <a href="https://makers.tech/" className="text-blue-500 hover:text-blue-700">Makers.tech</a></li>
+                <div className="mt-3 text-lg text-gray-800 dark:text-gray-400 pb-4"><ul>   <li>🤓 I'm a graduate from <a href="https://makers.tech/" className="text-blue-500 hover:text-blue-700">Makers.tech</a></li>
                                                                                     <li>🌱 I love learning, designing and creating things</li>
                                                                                     <li>🍪 If you have chocolate biscuits, I will eat them!</li></ul>
-                                                                                    </p>
+                                                                                    </div>
 
         
               {/* <!-- Brands --> */}
 
         
-                <div className="mt-4 flex justify-left ml-20">
+                <div className="mt-4 flex ml-8">
                     <SocialMediaButtons />
+                                <button className="p-4 transform hover:scale-110 transition-transform cursor-pointer" onClick={() => window.location.href = 'mailto:hjtrhodes@gmail.com'}>
+                                    <img className="w-14 h-14" src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/master/public/icons/gmail/gmail.svg" 
+                                    alt="Gmail" />
+                                    </button>
                 </div>
                 
               {/* <!-- End Brands --> */}
@@ -42,7 +46,7 @@ const Home = () => {
 
 <div className="w-screen h-screen bg-yellow-300">
     <div className="w-screen h-screen bg-yellow-300 flex flex-col pt-10 items-center">
-        <p className="mt-3 drop-shadow-lg font-semibold decoration-1">I have experience working with:</p>
+        <div className="mt-3 drop-shadow-lg font-semibold decoration-1">I have experience working with:</div>
                 <div className="mt-0 lg:mt-2 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">   
                     <div className="w-full sm:w-auto">
                     <ul className="list-disc list-inside">

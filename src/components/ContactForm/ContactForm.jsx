@@ -58,10 +58,10 @@ const ContactForm = () => {
                     </div>
                     <div className="flex justify-center">
                         <button
-                          type="submit"
-                          className="py-3 px-5 text-sm font-medium text-gray-900 dark:text-white rounded-lg bg-yellow-300 hover:bg-yellow-400 transform hover:scale-110 focus:ring-4 focus:outline-none focus:ring-primary-300 cursor-pointer"
+                        type="submit"
+                        className="py-3 px-5 text-sm font-medium text-gray-900 dark:text-white rounded-lg bg-yellow-300 hover:bg-yellow-400 transform hover:scale-110 focus:ring-4 focus:outline-none focus:ring-primary-300 cursor-pointer"
                         >
-                          Send email
+                        Send email
                         </button>
                     </div>
                 </form>
