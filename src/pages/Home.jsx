@@ -10,10 +10,8 @@ const Home = () => {
     
     return (
         <>
-        <div className="pagecontainer flex items-center justify-center p-8">
-            <h1 className="text-3xl font-bold underline font-libre-baskervile">
-                Under Construction</h1>
-    </div>
+        <div className="w-screen h-screen bg-yellow-300">
+        </div>
         </>
         // <div className='pagecontainer'>
         //     <div className="content-container">

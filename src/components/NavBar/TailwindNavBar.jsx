@@ -1,5 +1,5 @@
 import Logo from "../../assets/Logo.png"
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
 import NavBarDropDown from "../NavBarDropDown/NavBarDropDown.jsx"
 
