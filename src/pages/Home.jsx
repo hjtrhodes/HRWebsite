@@ -1,5 +1,5 @@
 import React from 'react'
-import Computer from "../assets/Computer.png"
+import ComputerZoomed from "../assets/ComputerZoomed.jpg"
 import SocialMediaButtons from "../components/SocialMediaButtons/SocialMediaButtons.jsx"
 
 const Home = () => {
@@ -36,7 +36,7 @@ const Home = () => {
             {/* <!-- End Col --> */}
         
             <div className="lg:col-span-4 mt-10 lg:mt-0">
-                <img className="w-full rounded-xl" src={Computer} alt="Man at Computer"/>
+                <img className=" rounded-xl" src={ComputerZoomed} alt="Man at Computer"/>
             </div>
             {/* <!-- End Col --> */}
             </div>
@@ -46,7 +46,7 @@ const Home = () => {
 
 <div className="w-screen h-screen bg-yellow-300">
     <div className="w-screen h-screen bg-yellow-300 flex flex-col pt-10 items-center">
-        <div className="mt-3 drop-shadow-lg font-semibold decoration-1">I have experience working with:</div>
+        <div className="mt-3 drop-shadow-lg font-semibold decoration-1">My languages and tools:</div>
                 <div className="mt-0 lg:mt-2 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">   
                     <div className="w-full sm:w-auto">
                     <ul className="list-disc list-inside">

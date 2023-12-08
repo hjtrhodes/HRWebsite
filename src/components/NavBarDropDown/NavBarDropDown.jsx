@@ -39,7 +39,8 @@ const NavBarDropDown = (props) => {
                         }}
                         style={{ 
                           cursor: isHomePage ? 'default' : 'pointer',
-                          color: isHomePage ? '#000080' : undefined,
+                          color: isHomePage ? '#d1a009' : undefined,
+                          fontWeight: isHomePage ? 'bold' : undefined,
                           pointerEvents: isHomePage ? 'none' : 'auto',}}
                           >
                             Home
@@ -58,7 +59,8 @@ const NavBarDropDown = (props) => {
                         }}
                         style={{ 
                           cursor: isCVPage ? 'default' : 'pointer',
-                          color: isCVPage ? '#000080' : undefined,
+                          color: isCVPage ? '#d1a009' : undefined,
+                          fontWeight: isCVPage ? 'bold' : undefined,
                           pointerEvents: isCVPage ? 'none' : 'auto',}}
                           >
                             CV
@@ -77,7 +79,8 @@ const NavBarDropDown = (props) => {
                         }}
                         style={{ 
                           cursor: isAboutMePage ? 'default' : 'pointer',
-                          color: isAboutMePage ? '#000080' : undefined,
+                          color: isAboutMePage ? '#d1a009' : undefined,
+                          fontWeight: isAboutMePage ? 'bold' : undefined,
                           pointerEvents: isAboutMePage ? 'none' : 'auto',}}
                           >
                             About Me
@@ -96,7 +99,8 @@ const NavBarDropDown = (props) => {
                         }}
                         style={{ 
                           cursor: isProjectsPage ? 'default' : 'pointer',
-                          color: isProjectsPage ? '#000080' : undefined,
+                          color: isProjectsPage ? '#d1a009' : undefined,
+                          fontWeight: isProjectsPage ? 'bold' : undefined,
                           pointerEvents: isProjectsPage ? 'none' : 'auto',}}
                           >
                             Projects
@@ -116,7 +120,8 @@ const NavBarDropDown = (props) => {
                         }}
                         style={{ 
                           cursor: isContactsPage ? 'default' : 'pointer',
-                          color: isContactsPage ? '#000080' : undefined,
+                          color: isContactsPage ? '#d1a009' : undefined,
+                          fontWeight: isContactsPage ? 'bold' : undefined,
                           pointerEvents: isContactsPage ? 'none' : 'auto',}}
                           >
                             Contact Me
