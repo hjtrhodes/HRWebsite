@@ -1,7 +1,6 @@
 import React from 'react'
 import ComputerZoomed from "../assets/ComputerZoomed.jpg"
 import SocialMediaButtons from "../components/SocialMediaButtons/SocialMediaButtons.jsx"
-import Blobs from "../components/Blobs/blobs.jsx"
 
 const Home = () => {
 
@@ -18,7 +17,6 @@ const Home = () => {
                             <h1 className="pt-4 pb-4 block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">Hi, I'm Harry . . .</h1>
                                 <h1 className="pb-4 block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-4xl dark:text-white">I'm a Software Developer</h1>
                                     <div className="mt-3 text-lg text-gray-800 dark:text-gray-400 pb-4"><ul>   
-                                    <div><Blobs /></div>
                                             <li>🤓 I'm a graduate from <a href="https://makers.tech/" className="text-blue-500 hover:text-blue-700">Makers.tech.</a></li>
                                             <li>🌱 I love learning, designing and creating things.</li>
                                             <li>🍪 If you have chocolate biscuits, I will eat them!</li></ul>
